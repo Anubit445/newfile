@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-7">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Home</title>
+    <style>
+        nav a {
+            margin-right: 0.5cm; /* Adds space between each link */
+            text-decoration: none; /* Removes the underline from links */
+            color: black; /* Optional: Default text color for links */
+        }
+
+        /* Container for text and photo */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Left side content */
+        .content {
+            flex: 1;
+        }
+
+        /* Right side photo */
+        .photo {
+            flex: 0 0 200px; /* Keeps photo at a fixed size */
+            text-align: right;
+        }
+
+        /* Style for the photo */
+        .photo img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 50%; /* Optional: Makes the image circular */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anuran Maity</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="publications.html">Publications</a>
+            <a href="python_codes.html">Python Codes</a>
+            <a href="photos.html">Photos</a>
+            <a href="talks_and_slides.html">Talks and Slides</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Left content with text -->
+        <div class="content">
+            <h1>About Me</h1>
+            <p>Hello! My name is Anuran Maity. I am a Postdoc fellow at ***, ***.</p>
+            <p>I obtained my Bachelor’s degree in Mathematics from Asutosh College in Calcutta University, India in 2015.</p>
+            <p>I completed my Master's degree in Applied Mathematics from Indian Institute of Engineering Science and Technology, Shibpur, India in 2017.</p>
+            <p>I completed my PhD studies (2018-2023) at the Department of Mathematics, Indian Institute of Technology Madras, India under the supervision of Prof. Kalpana Mahalingam.</p>
+            <p>During December 2023 - December 2024, I was a postdoctoral researcher at Saint Petersburg State University, Saint Petersburg, Russia with Prof. Svetlana Puzynina.</p>
+            <h1>Research Topic</h1>
+            <p>My main topic of research is Combinatorics on Words, and Formal Language Theory.</p>
+            <h1>Contact</h1>
+            <p>Email: anuran.maity@gmail.com</p>
+        </div>
+
+        <!-- Right side with photo -->
+        <div class="photo">
+            <img src="my_photo.jpg" alt="My Photo">
+        </div>
+    </div>
+</body>
+</html>
